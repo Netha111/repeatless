@@ -118,7 +118,7 @@ const Carousel: React.FC<PropType> = ({ testimonials, options }) => {
               <div className="px-2 md:px-5 py-12 bg-[#19133F]/50 w-full h-full flex flex-col gap-20 text-center items-center justify-between rounded-[12px]">
                 <div className="px-4 lg:px-20 flex flex-grow items-center justify-center">
                   <p
-                    className={`text-[0.875rem] md:text-[1.125rem] leading-[20px] md:leading-[28px]`}
+                    className={`text-[0.875rem] md:text-[1.125rem] leading-[20px] md:leading-[28px] text-white`}
                   >
                     {testimonial.review}
                   </p>
@@ -142,7 +142,7 @@ const Carousel: React.FC<PropType> = ({ testimonials, options }) => {
                         {testimonial.name}
                       </p>
                       <p
-                        className={`text-[0.75rem] leading-[19.7px] text-[#A19EB0]`}
+                        className={`text-[0.75rem] leading-[19.7px] text-[#ffff]`}
                       >
                         {testimonial.position}
                       </p>

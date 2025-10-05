@@ -19,6 +19,7 @@ const TestimonialsSection = () => {
 
   return (
     <motion.section
+    id="testimonials"
       className="flex flex-col items-center pt-0 2xl:pt-25 pb-17 w-full bg-[#0A0118]"
       initial="hidden"
       whileInView="show"

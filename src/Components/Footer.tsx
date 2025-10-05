@@ -62,11 +62,11 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="flex flex-col gap-2">
           <h4 className="font-semibold mb-2">Quick Links</h4>
-          <Link href="/" className="text-white/80 hover:text-white transition">Home</Link>
-          <Link href="/about" className="text-white/80 hover:text-white transition">About Us</Link>
-          <Link href="/services" className="text-white/80 hover:text-white transition">Services</Link>
-          <Link href="/case-studies" className="text-white/80 hover:text-white transition">Case Studies</Link>
-          <Link href="/book-demo" className="text-white/80 hover:text-white transition">Book a Demo</Link>
+          <Link href="#home" className="text-white/80 hover:text-white transition">Home</Link>
+          <Link href="#testimonials" className="text-white/80 hover:text-white transition">About Us</Link>
+          <Link href="#solutions" className="text-white/80 hover:text-white transition">Solutions</Link>
+          <Link href="/casestudies" className="text-white/80 hover:text-white transition">Case Studies</Link>
+          <Link href="#contact" className="text-white/80 hover:text-white transition">Book a Demo</Link>
         </div>
 
         {/* Contact Us */}
@@ -85,7 +85,7 @@ export default function Footer() {
             <span>+91 98489 84501</span>
           </div>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/chandan_cheripally_"
             className="flex items-center gap-2 text-white/80 hover:text-white transition"
           >
             <FiInstagram className="w-4 h-4 shrink-0" />

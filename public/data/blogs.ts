@@ -31,385 +31,387 @@ export type Blog = BlogMeta & {
 };
 
 export const blogs: Blog[] = [
-  {
-    slug: "linkedin-post-generator-for-edutech",
-    title: "LinkedIn Post Generator for EduTech",
-    category: "News",
-    date: "2025-01-26",
-    excerpt:
-      "How we built an AI-powered LinkedIn post generator that boosted engagement by 85%.",
-    image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/linkedin.png",
-    hero: {
-      title: "LinkedIn Post Generator for EduTech",
-      description:
-        "EduTech Solutions struggled with consistent, engaging LinkedIn content. We built an AI-powered generator that streamlined creation and improved performance.",
-      meta: { solution: "EDUTECH SOLUTION", stat: "85% INCREASE IN ENGAGEMENT" },
-      image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/linkedin-hero.png",
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Manual, inconsistent post creation slowed teams and diluted brand voice across channels, making social engagement unpredictable.",
-        },
-        {
-          title: "Solution",
-          text: [
-            "AI workflow drafts, reviews, and schedules posts to match brand tone.",
-            "Analytics loops learn from engagement signals to improve suggestions continuously.",
-            "Integration with scheduling tools to automate posting across multiple platforms.",
-          ],
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/linkedin-solution.png",
-        },
-        {
-          title: "Key Features",
-          iconList: [
-            "Brand-tuned content generation",
-            "A/B testing for posts",
-            "Approval workflow for compliance",
-            "Auto-scheduling across platforms",
-            "Analytics-driven learning",
-            "Customizable templates",
-          ],
-        },
-        {
-          text:
-            "Marketers can preview, modify, and schedule posts with confidence using a polished UI.",
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/linkedin-ui.png",
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "85% engagement increase",
-            "50% faster post creation",
-            "Consistent brand voice",
-            "Reusable workflow templates",
-            "Improved team efficiency",
-          ],
-        },
-      ],
-    },
-  },
-
-  {
-    slug: "ai-powered-healthcare-dashboard",
-    title: "AI-Powered Healthcare Dashboard",
-    category: "Case Study",
-    date: "2025-02-15",
-    excerpt:
-      "AI analytics reduced patient wait times by 40% and improved hospital efficiency.",
-    image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/healthcare.png",
-    hero: {
-      title: "AI-Powered Healthcare Dashboard",
-      description:
-        "Hospitals needed faster patient insights and predictive analytics. We delivered an AI dashboard that transformed hospital operations.",
-      meta: { solution: "HEALTHCARE SOLUTION", stat: "40% REDUCTION IN WAIT TIME" },
-      image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/healthcare-hero.png",
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Hospitals struggled with slow triage and inefficient resource allocation, impacting patient experience and operational costs.",
-        },
-        {
-          title: "Solution",
-          text: [
-            "AI predicts patient inflow and optimizes staff schedules.",
-            "Interactive dashboards provide real-time monitoring of patient load.",
-            "Integration with hospital management systems for seamless operations.",
-          ],
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/healthcare-solution.png",
-        },
-        {
-          title: "Why it Works",
-          iconList: [
-            "Real-time analytics",
-            "Predictive staffing",
-            "Automated alerts",
-            "Customizable dashboards",
-            "Improved patient prioritization",
-          ],
-        },
-        {
-          text:
-            "Medical staff make faster, data-driven decisions, improving care quality and efficiency.",
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/healthcare-body.png",
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "40% reduction in patient wait times",
-            "30% increased staff efficiency",
-            "Higher patient satisfaction",
-            "Streamlined operations",
-            "Reduced operational costs",
-          ],
-        },
-      ],
-    },
-  },
-
-  {
-    slug: "ecommerce-visual-search-engine",
-    title: "E-commerce Visual Search Engine",
-    category: "Tech",
-    date: "2025-03-02",
-    excerpt:
-      "Implementing visual search led to a 60% higher product discovery rate for an online retailer.",
-    image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/visual-search.png",
-    hero: {
-      title: "E-commerce Visual Search Engine",
-      description:
-        "Text-based searches limited product discovery. Our AI-powered visual search allows users to find products via images quickly.",
-      meta: { solution: "E-COMMERCE SOLUTION", stat: "60% INCREASE IN DISCOVERY" },
-      image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/visual-search-hero.png",
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Shoppers struggled with finding products through text search, resulting in abandoned carts and low engagement.",
-        },
-        {
-          title: "Solution",
-          text: [
-            "Upload an image to find matching products instantly.",
-            "Machine learning continuously improves recommendations.",
-            "Integration with product catalog and inventory systems.",
-          ],
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/visual-search-solution.png",
-        },
-        {
-          title: "Why it Works",
-          iconList: [
-            "Accurate image recognition",
-            "Smart recommendations",
-            "Enhanced UX",
-            "Quick catalog integration",
-            "Mobile-friendly interface",
-          ],
-        },
-        {
-          text:
-            "Shoppers can find exactly what they need faster, improving conversion and satisfaction.",
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/visual-search-body.png",
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "60% increase in product discovery",
-            "35% increase in conversion",
-            "Higher user engagement",
-            "Reduced bounce rate",
-            "Improved customer satisfaction",
-          ],
-        },
-      ],
-    },
-  },
-
-  {
-    slug: "smart-fitness-app-analytics",
-    title: "Smart Fitness App with Analytics",
-    category: "Innovation",
-    date: "2025-04-10",
-    excerpt:
-      "AI-powered fitness app personalizes workouts and nutrition for over 1000 active users.",
-    image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/fitness.png",
-    hero: {
-      title: "Smart Fitness App with Analytics",
-      description:
-        "Fitness enthusiasts need personalized guidance. Our AI-powered app provides tailored workouts, nutrition, and progress tracking.",
-      meta: { solution: "FITNESS SOLUTION", stat: "1000+ ACTIVE USERS" },
-      image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/fitness-hero.png",
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Generic fitness apps lacked personalization, leading to low engagement and ineffective workouts.",
-        },
-        {
-          title: "Solution",
-          text: [
-            "AI-driven workout recommendations adapt based on user progress.",
-            "Nutrition suggestions tailored to individual needs.",
-            "Analytics dashboards track progress and habits.",
-            "Community features enhance motivation.",
-          ],
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/fitness-solution.png",
-        },
-        {
-          title: "Key Features",
-          iconList: [
-            "Personalized workouts",
-            "Nutrition tracking",
-            "Performance analytics",
-            "Community challenges",
-            "Progress visualization",
-          ],
-        },
-        {
-          text:
-            "Users receive actionable insights, improving adherence and motivation.",
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/fitness-body.png",
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "Better workout adherence",
-            "Improved nutrition habits",
-            "Increased engagement",
-            "Positive community growth",
-            "Data-driven performance tracking",
-          ],
-        },
-      ],
-    },
-  },
-
-  {
-    slug: "instagram-dm-comments-automation",
+   {
+  slug: "instagram-dm-comments-automation",
+  title: "Instagram DM & Comments Automation (AI Agent + n8n)",
+  category: "Case Study",
+  date: "2025-10-04",
+  excerpt:
+    "AI agent + n8n turned Instagram comments & DMs into 24/7 sales chats—62% more replies and 41% more qualified leads.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665534/repeatless/insta_dm_hpng0l.png",
+  hero: {
     title: "Instagram DM & Comments Automation",
-    category: "Case Study",
-    date: "2025-10-03",
-    excerpt:
-      "How an AI agent turned Instagram comments & DMs into 24/7 sales conversations and lifted qualified leads by 41%.",
-    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/fl_preserve_transparency/v1759485870/repeatless/instagram_automation_n8n.jpg",
-    hero: {
-      title: "Instagram DM & Comments Automation",
-      description:
-        "We deployed a brand-tuned AI agent that replies to comments, moves conversations into DMs, answers product questions, and nudges towards purchase—just like a human, only faster.",
-      meta: { solution: "REPEATLESS AUTOMATION", stat: "62% MORE REPLIES FROM COMMENTS" },
-      image: "https://res.cloudinary.com/ds10dzkpj/image/upload/fl_preserve_transparency/v1759485870/repeatless/instagram_automation_n8n.jpg"
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Comments and DMs were piling up. Response times varied by team member and time of day, opportunities slipped, and FAQs consumed hours. The brand needed consistent, friendly replies that could qualify intent, share links/coupons, and keep conversations alive—without hiring a night shift."
-        },
-        {
-          title: "Solution",
-          text: [
-            "An AI agent that watches post comments and Stories replies, auto-DMs interested users, and continues the chat with product-aware answers.",
-            "Flows for coupons, size/stock checks, order-status, and lead capture; seamless human handoff for edge cases.",
-            "N8N orchestration with guardrails: sentiment & intent detection, rate-limits, fallback templates, and CRM/Sheet sync.",
-            "Analytics loop to learn which prompts, hooks, and CTAs convert best; scheduled A/B rotations on captions and replies."
-          ],
-          stats: [
-            { value: "90 sec", label: "Median first reply after automation", highlight: true },
-            { value: "24/7", label: "Always-on coverage" },
-            { value: "70%", label: "Conversations resolved by agent" },
-            { value: "41%", label: "Lift in qualified leads captured" },
-            { value: "3.2×", label: "More replies from comment triggers" },
-            { value: "12%", label: "Increase in AOV from DM upsells" },
-            { value: "1,800+/mo", label: "Inbound threads handled" },
-            { value: "99.2%", label: "Automation uptime (30-day)" }
-          ]
-        },
-        {
-          title: "Why it works",
-          iconList: [
-            "Brand-tuned generation",
-            "Intent & sentiment routing",
-            "Human handoff in 1 tap",
-            "Auto-scheduling follow-ups",
-            "CRM & Sheet logging",
-            "Compliance + safety filters"
-          ]
-        },
-        {
-          text:
-            "A clean operator UI shows live threads, confidence scores, and quick-swap reply templates. Marketers can preview, approve, or pause flows per campaign and track conversions from comment → DM → checkout.",
-          image: "/images/ig-automation/ui.png"
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "62% more replies initiated from comments",
-            "50% faster resolution vs. manual handling",
-            "41% increase in qualified lead capture",
-            "70% agent-only resolution; humans focus on high-value cases"
-          ],
-          text:
-            "The client now treats Instagram as a reliable sales channel. The AI handles volume and repetition; the team jumps in only where nuance or negotiation is needed."
-        }
-      ]
-    }
+    description:
+      "Brands needed faster, on-brand Instagram conversations. We delivered an AI agent that replies in comments, moves to DM, and converts interest into sales—compliantly and at scale.",
+    meta: { solution: "SOCIAL COMMERCE SOLUTION", stat: "62% MORE REPLIES FROM COMMENTS" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665534/repeatless/insta_dm_hpng0l.png",
   },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "High comment and DM volume led to slow replies, inconsistent tone, and missed sales windows—especially nights and weekends. FAQs (pricing, sizes, delivery, order status) drained team time and reduced conversion.",
+      },
+      {
+        title: "Solution",
+        text: [
+          "AI detects buyer intent in comments and Story replies, then opens or continues DMs with brand-tuned responses.",
+          "Handles FAQs, shares links/coupons, captures leads with consent, and escalates edge cases to a human.",
+          "Built with n8n + Meta Graph API, including rate-limit guards, sentiment/intent routing, and safety fallbacks.",
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665534/repeatless/insta_dm_hpng0l.png",
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Brand-tuned generation",
+          "Intent & sentiment routing",
+          "One-tap human handoff",
+          "Auto follow-up & reminders",
+          "CRM/Sheet logging & UTM tracking",
+        ],
+      },
+      {
+        text:
+          "Operators see live threads, confidence scores, and templates. Marketing can pause/approve flows per campaign and track conversions from comment → DM → checkout.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665534/repeatless/insta_dm_hpng0l.png",
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "62% increase in replies initiated from comments",
+          "41% lift in qualified leads captured",
+          "50% faster resolution time",
+          "24/7 coverage with consistent brand voice",
+          "Lower support load; team focuses on high-value cases",
+        ],
+      },
+    ],
+  },
+},
+{
+  slug: "linkedin-post-generator-for-b2b",
+  title: "LinkedIn Post Generator & Daily Auto‑Posting (B2B)",
+  category: "Case Study",
+  date: "2025-10-04",
+  excerpt:
+    "AI discovers proven LinkedIn ideas, rewrites them in your voice, posts daily—driving inbound leads and new client acquisition without manual work.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665812/repeatless/linkedin_q4ttbl.png",
+  hero: {
+    title: "LinkedIn Post Generator for B2B Growth",
+    description:
+      "We built an AI system that analyzes top public posts in your niche, rewrites them in your tone with fresh angles, designs an image, and auto‑posts to LinkedIn—keeping you consistently visible to prospects and winning new clients.",
+    meta: { solution: "B2B CONTENT SOLUTION", stat: "Boost in Inbound Leads" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665812/repeatless/linkedin_q4ttbl.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Founders and marketing teams knew what resonated but couldn't post daily. Idea mining was slow, approvals slipped, tone drifted, and pipeline suffered from fewer profile visits, DMs, and demo requests."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Discovery: Monitor public, high‑engagement posts from selected creators and hashtags; filter by niche, topic, and recency.",
+          "Suitability Check: Rule engine screens for relevance, originality threshold, and brand policies (no competitors' claims, no sensitive topics).",
+          "Generation: LLM rewrites with your voice guide (tone, vocabulary, CTAs) and adds unique insights to avoid duplication.",
+          "Visuals: Automatic on‑brand image generation (headline cards/diagrams) with your colors/logo.",
+          "Scheduling: Queue approved posts for daily publishing via LinkedIn‑approved scheduler/API with rate‑limit guards.",
+          "Lead Capture: Strong CTAs to book calls/DM, UTM‑tagged links to landing pages, and auto‑logging of inbound interest.",
+          "Learning Loop: Track engagement and downstream conversions (profile visits, connection accepts, booked calls); promote winning angles; de‑prioritize underperformers."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665812/repeatless/linkedin_q4ttbl.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Finds proven ideas in your niche",
+          "Brand voice & policy guardrails",
+          "Fresh angles—no copy‑paste",
+          "Auto images with your brand kit",
+          "Hands‑free daily scheduling",
+          "Lead‑focused CTAs & tracking"
+        ]
+      },
+      {
+        text:
+          "Operators see a simple queue with previews, tone checks, and policy flags. You can approve, edit, or let the agent auto‑publish on a set cadence (e.g., 1 post/day at 9:30 AM).",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759665812/repeatless/linkedin_q4ttbl.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Consistent daily posting without manual effort",
+          "8–10 hours/week saved on ideation and formatting",
+          "Increase in qualified inbound leads & discovery calls",
+          "On‑brand, compliant posts aligned to your niche",
+          "Evergreen queue maintained 2–3 weeks ahead"
+        ]
+      }
+    ]
+  }
+},
 
-  {
-    slug: "virtual-reality-education-platform",
-    title: "Virtual Reality Education Platform",
-    category: "EdTech",
-    date: "2025-05-05",
-    excerpt:
-      "VR platform transforms classroom learning with immersive 3D lessons and interactive labs.",
-    image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/vr-education.png",
-    hero: {
-      title: "Virtual Reality Education Platform",
-      description:
-        "Traditional classrooms lacked engagement. Our VR platform provides immersive 3D lessons and virtual labs for hands-on learning.",
-      meta: { solution: "EDTECH SOLUTION", stat: "IMMERSIVE 3D LEARNING" },
-      image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/vr-hero.png",
-    },
-    body: {
-      sections: [
-        {
-          title: "Challenge",
-          text:
-            "Students were disengaged in lectures and struggled to understand complex concepts without hands-on experience.",
-        },
-        {
-          title: "Solution",
-          text: [
-            "Interactive 3D lessons for immersive learning.",
-            "Virtual labs for practical experiments.",
-            "Gamified progress tracking to motivate students.",
-            "Teacher dashboards for progress monitoring.",
-          ],
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/vr-solution.png",
-        },
-        {
-          title: "Why it Works",
-          iconList: [
-            "Immersive learning experience",
-            "Hands-on virtual labs",
-            "Gamified engagement",
-            "Remote accessibility",
-            "Analytics for teachers",
-          ],
-        },
-        {
-          text:
-            "Students actively participate and retain knowledge better through VR and gamified lessons.",
-          image: "https://res.cloudinary.com/demo/image/upload/v1690000000/blogs/vr-body.png",
-        },
-        {
-          title: "Impact",
-          bullets: [
-            "Higher student engagement",
-            "Better retention of concepts",
-            "Interactive learning environment",
-            "Positive feedback from educators",
-            "Scalable across multiple classrooms",
-          ],
-        },
-      ],
-    },
+{
+  slug: "newsletter-automation-leadgen",
+  title: "Newsletter Spam Monitoring & Lead Generation Automation",
+  category: "Case Study",
+  date: "2025-10-05",
+  excerpt:
+    "We turned newsletter subscriptions into a lead engine by detecting senders landing in spam and triggering tailored outreach—fueling a marketing agency's pipeline.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666185/repeatless/seannewsletter_g8mzip.png",
+  hero: {
+    title: "Newsletter Automation for Agency Lead Generation",
+    description:
+      "A marketing agency needed a steady stream of qualified leads. We built an automation that subscribes to niche newsletters across managed inboxes, detects senders landing in spam or failing verification, and launches contextual outreach to offer deliverability & email marketing services.",
+    meta: { solution: "LEAD GEN & DELIVERABILITY", stat: "Spam-to-Lead Conversion Engine" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666185/repeatless/seannewsletter_g8mzip.png"
   },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "The agency relied on cold lists with low intent. Many potential clients were already signaling deliverability issues—double‑opt‑in loops, missing confirmation emails, or messages routed to spam—but these signals were scattered across inboxes and never actioned at scale."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Subscription Pool: Use managed inboxes and niche keywords to subscribe to relevant newsletters across industries.",
+          "Signal Detection: Monitor inbox events (INBOX/SPAM/Promotions), double‑opt‑in requests, bounces, and sender authentication hints.",
+          "Classification: Tag each sender by risk (spam‑routed, missing DKIM/SPF, slow confirmation), intent, and niche fit.",
+          "Outreach Trigger: When a sender trips a deliverability issue, fire a tailored outreach sequence offering remediation and email marketing help.",
+          "CRM Sync: De‑duplicate domains, enrich contacts, and track outcomes from first touch → booked call.",
+          "Compliance: Respect unsubscribes, frequency caps, and lawful bases for contact; store audit logs."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666185/repeatless/seannewsletter_g8mzip.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Prospects with active pain (spam routing)",
+          "Real‑time deliverability intelligence",
+          "Contextual outreach with proof points",
+          "Multi‑inbox monitoring at scale",
+          "De‑dup + enrichment for clean CRM",
+          "Privacy‑first and compliant"
+        ]
+      },
+      {
+        text:
+          "Operators see a dashboard of newsletter domains with status (OK/Spam/No‑Mail/Double‑Opt‑In), niche tags, and last events. One click reveals suggested outreach copy and a remediation checklist; wins feed a case‑study queue automatically.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666185/repeatless/seannewsletter_g8mzip.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Steady stream of high‑intent leads from real deliverability issues",
+          "Reduced time spent hunting prospects; focus shifts to consults",
+          "Cleaner CRM with de‑duped domains and tracked outcomes",
+          "Faster cycles from signal → outreach → booked calls",
+          "Reusable playbook for new niches and geographies"
+        ]
+      }
+    ]
+  }
+},
+{
+  slug: "whatsapp-broadcast-automation-books",
+  title: "WhatsApp Broadcast Automation for New Book Launches",
+  category: "Case Study",
+  date: "2025-10-05",
+  excerpt:
+    "When a publisher releases a new book, our automation broadcasts rich WhatsApp messages to opted‑in readers—driving immediate awareness and sales at scale.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666496/repeatless/publications_dsrg9k.png",
+  hero: {
+    title: "WhatsApp Broadcast Automation for Publishers",
+    description:
+      "A book publisher needed instant reach to thousands of readers at launch. We built a compliant WhatsApp broadcast system that detects new titles, personalizes messages, and sends at scale with tracking and opt‑outs—no manual steps.",
+    meta: { solution: "WHATSAPP COMMERCE", stat: "Launch‑Day Reach in Minutes" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666496/repeatless/publications_dsrg9k.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Announcements on email and social weren’t reaching readers fast enough. Manual WhatsApp groups were capped, error‑prone, and risky for compliance. The publisher needed a reliable, policy‑safe way to notify thousands the moment a new book went live."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Trigger: Detect new book listings from the CMS/Sheet; enrich with title, author, cover URL, and buy link.",
+          "Template Messaging: Use pre‑approved WhatsApp templates with variables (name, title, discount, link) to ensure high deliverability.",
+          "Segmentation: Send to opted‑in readers by genre, language, and purchase history; throttle by provider limits.",
+          "Personalization: Add first‑name, dynamic offers, and city‑based store info; attach cover image as media.",
+          "Compliance: Manage consent and opt‑out keywords (STOP), handle fails/retries, and maintain an auditable log.",
+          "Analytics: Track deliveries, reads, clicks (UTM), and conversions; auto‑compile a launch report."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666496/repeatless/publications_dsrg9k.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Immediate, high‑open channel",
+          "Policy‑compliant templates & opt‑outs",
+          "Precise audience segmentation",
+          "Personalized rich media messages",
+          "Automated triggers from your catalog",
+          "End‑to‑end tracking & reporting"
+        ]
+      },
+      {
+        text:
+          "Operators get a simple launch dashboard: preview the broadcast, select segments, schedule or send now, and watch real‑time delivery/click stats. The system auto‑retries soft fails and logs unsubscribes to keep the list healthy.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666496/repeatless/publications_dsrg9k.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Instant launch‑day reach across thousands of opted‑in readers",
+          "Hands‑free publishing → messaging flow with zero copy‑paste",
+          "Higher CTR from personalized, media‑rich notifications",
+          "Clean compliance: consent capture, opt‑outs, and audit logs",
+          "Actionable insights to refine offers, timing, and segments"
+        ]
+      }
+    ]
+  }
+},
+{
+  slug: "document-consolidation-automation",
+  title: "Document Consolidation & Auto‑Foldering Automation (Consultancy)",
+  category: "Case Study",
+  date: "2025-10-05",
+  excerpt:
+    "For consultancy teams: one form generates all client documents, auto‑names/files them in Google Drive, and supports image uploads—saving hours every week.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666970/repeatless/consultation_niszxz.png",
+  hero: {
+    title: "Document Consolidation & Auto‑Foldering for Consultancy Clients",
+    description:
+      "Consultancy firms were manually filling multiple templates per client and filing them in the right folders. We delivered a single smart form that captures client data (plus images), populates every template, auto‑names files, and saves everything into a client‑specific Google Drive structure.",
+    meta: { solution: "OPERATIONS AUTOMATION", stat: "Up to 75% Time Saved" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666970/repeatless/consultation_niszxz.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Consultancy teams handled different consolidation packs (engagement letters, KYC, scopes, approvals) across many clients. Manual data entry into multiple templates led to version mix‑ups, wrong file names, scattered images, and misplaced folders—hurting speed and compliance."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Unified Intake (Consultancy‑Ready): A single form where teammates choose the consolidation pack and enter core client data.",
+          "Data Fields Captured: Client Name, Engagement ID, Service Line, Primary Contact, Email/Phone, Billing Address, Project Address, Consultant Owner, Deadlines/Milestones, Fee & Currency, Tax IDs/GST, Scope Notes, KYC fields (PAN/ID types), Signatories, Custom Clauses.",
+          "Template Merge: Auto‑populate all approved templates (Engagement Letter, KYC Form, NDA, Scope of Work, Fee Schedule, Approval Sheet) with the captured fields, placed exactly per template positions.",
+          "Image & File Uploads: Upload client logos, ID proofs, site photos, and signatures from the same form. Files are stored under Google Drive → Client Folder → /assets and linked into documents where required (e.g., logo on letterhead, ID proof in KYC).",
+          "Smart Naming & Auto‑Foldering: Use a strict schema (ClientName_ConsolidationType_Date_v1). Create the client root folder if missing and place documents in subfolders (\"01_Intake\", \"02_Agreements\", \"03_KYC\", \"04_Approvals\", \"assets\").",
+          "Drive Sync & Permissions: Save to Google Drive with correct access for the consultancy team; log creator, timestamp, and version.",
+          "Status, E‑Sign & QC: Dashboard shows completion status, missing fields, and e‑signature progress; sends e‑sign requests automatically and flags exceptions for review."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666970/repeatless/consultation_niszxz.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Built for consultancy workflows",
+          "Single intake → many documents",
+          "Exact field placement in templates",
+          "Zero manual naming/filing",
+          "Auto‑permissions & audit trail",
+          "Centralized images & attachments"
+        ]
+      },
+      {
+        text:
+          "A coordinator opens the form, selects the consolidation pack (e.g., \"Standard Consultancy Onboarding\"), fills client details, and uploads any images (logo, ID proof, signatures). The system generates Docs/PDFs, creates the client folder, files each document in the correct subfolder, and posts a link summary to the team.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759666970/repeatless/consultation_niszxz.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "75% time reduction preparing and filing consultancy documents",
+          "Eliminated naming errors and missing images/attachments",
+          "Faster client onboarding with consistent, compliant packs",
+          "Live status dashboard for coordinators and partners",
+          "Repeatable playbook for new consolidation types and geographies"
+        ]
+      }
+    ]
+  }
+},
+{
+  slug: "whatsapp-local-service-connector-us",
+  title: "WhatsApp Local Service Connector (US County)",
+  category: "Case Study",
+  date: "2025-10-05",
+  excerpt:
+    "An AI+automation workflow that connects residents to vetted plumbers, electricians, and AC techs via WhatsApp—routing in seconds and boosting provider subscriptions.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png",
+  hero: {
+    title: "WhatsApp Local Service Connector",
+    description:
+      "In one US county, residents struggled to reach reliable home‑service providers quickly. We built a WhatsApp agent that understands the request, checks real‑time provider availability, and connects both parties instantly—no call centers, no waiting.",
+    meta: { solution: "LOCAL SERVICES AUTOMATION", stat: "Instant Request → Provider Match" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Discovery and coordination were slow. Customers bounced between directories and unanswered calls, while providers missed jobs outside business hours. The client needed a simple, always‑on way to match residents with the right on‑duty professional."
+      },
+      {
+        title: "Solution",
+        text: [
+          "WhatsApp Agent: Residents message a keyword like ‘plumber needed’. The agent collects location, urgency, and brief issue description.",
+          "Smart Matching: System checks a provider database (skills, coverage area, SLA) and current status (active/idle/do‑not‑disturb).",
+          "Instant Connect: Shares request to the best‑fit, currently active provider; once accepted, both parties receive each other’s contact details for direct follow‑up.",
+          "Fallback & Escalation: If no active provider, queue the request, ping next‑best, or escalate to a manual dispatcher.",
+          "Provider Portal: Service pros manage availability, service categories, pricing notes, and subscription billing (monthly).",
+          "Logs & Metrics: Track response times, acceptance rates, completion notes, and customer feedback for quality control."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Frictionless WhatsApp intake",
+          "Real‑time availability matching",
+          "Direct customer↔provider connection",
+          "Fail‑safes for off‑hours coverage",
+          "Quality tracking & feedback loop",
+          "Recurring subscriptions for providers"
+        ]
+      },
+      {
+        text:
+          "Operations staff can view a live queue, override matches, or pause categories during storms/peaks. Providers toggle ‘Active’ in one tap; the agent respects do‑not‑disturb windows and rotates jobs fairly across subscribers.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Requests routed to an on‑duty pro within seconds",
+          "Higher job acceptance and faster first response",
+          "More completed jobs and happier residents",
+          "Predictable recurring revenue via provider subscriptions",
+          "Reduced coordinator workload with clear audit trails"
+        ]
+      }
+    ]
+  }
+}
 ];
 
 
 export function getBlogBySlug(slug: string): Blog | undefined {
   return blogs.find((b) => b.slug === slug);
 }
-
 

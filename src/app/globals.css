@@ -18,20 +18,9 @@ body {
   color: var(--foreground);
 }
 
-/* Global overflow and sizing guards for mobile */
-html, body, #__next {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
-html {
-  scroll-behavior: smooth;
-}
 
-/* Enhanced smooth scroll for better performance */
-* {
-  scroll-behavior: smooth;
-}
+
 
 *, *::before, *::after {
   box-sizing: border-box;

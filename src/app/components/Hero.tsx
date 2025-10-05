@@ -116,7 +116,7 @@ const Hero = () => {
         {/* Stats Section */}
      {/* Stats Section */}
 <motion.div
-  className="relative flex flex-col sm:flex-row flex-wrap justify-center sm:justify-between items-center w-full max-w-6xl mx-auto px-4 sm:px-6 gap-4 sm:gap-6 pb-16 sm:pb-10" 
+  className="relative flex flex-col sm:flex-row flex-wrap justify-center sm:justify-between items-center w-full max-w-6xl mx-auto px-4 sm:px-6 gap-4 sm:gap-6 pb-20 sm:pb-10" 
   initial="hidden"
   whileInView="visible"
   viewport={{ once: true }}
@@ -175,18 +175,6 @@ const Hero = () => {
       </div>
     </div>
   </motion.div>
-</motion.div>
-
-
-
-        {/* ===== Auto Scroll Arrow with Text ===== */}
-<motion.div
-  className="absolute bottom-1 left-1/2 -translate-x-1/2 flex flex-col items-center cursor-pointer"
-
-  onClick={scrollToNextSection}
->
-  <span className="text-white text-sm sm:text-base mb-1 font-medium">Go next</span>
-  <FiArrowDown className="w-6 h-6 sm:w-8 sm:h-8 text-purple-400 animate-bounce" />
 </motion.div>
       </section>
 
