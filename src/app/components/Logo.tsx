@@ -18,7 +18,7 @@ interface LogoMarqueeProps {
   paddingTop?: string;
 }
 
-const LogoMarquee = ({ paddingTop = "pt-25" }: LogoMarqueeProps) => {
+const LogoMarquee = ({ }: LogoMarqueeProps) => {
   return (
     <motion.div
       variants={fadeUpVariant}

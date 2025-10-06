@@ -21,7 +21,7 @@ const fadeUp: Variants = {
   },
 };
 
-export default function BlogHero({ title, description, meta, image }: HeroProps) {
+export default function BlogHero({ title, description, meta, image, video }: HeroProps) {
   const [scrollWidth, setScrollWidth] = useState(0);
 
   useEffect(() => {
