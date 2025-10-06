@@ -12,6 +12,7 @@ export type BlogHeroData = {
   description: string;
   meta: { solution: string; stat: string };
   image: string;
+  video?: string; // optional: YouTube URL or direct video URL
 };
 
 export type BlogBodyData = {
@@ -21,6 +22,7 @@ export type BlogBodyData = {
     stats?: Array<{ value: string; label: string; highlight?: boolean }>;
     iconList?: string[];
     image?: string;
+    video?: string; // optional: YouTube URL or direct video URL
     bullets?: string[];
   }>;
 };

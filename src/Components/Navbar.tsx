@@ -7,11 +7,11 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#solutions", label: "Solutions" },
+  { href: "/#home", label: "Home" },
+  { href: "/#solutions", label: "Solutions" },
   { href: "/casestudies", label: "Case Studies" },
-  { href: "#testimonials", label: "About Us" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#testimonials", label: "About Us" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 const Navbar: React.FC = () => {

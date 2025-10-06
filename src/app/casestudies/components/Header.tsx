@@ -8,6 +8,7 @@ type HeroProps = {
   description: string;
   meta: { solution: string; stat: string };
   image: string;
+  video?: string;
 };
 
 // Fade-up animation variants
@@ -73,7 +74,7 @@ export default function BlogHero({ title, description, meta, image }: HeroProps)
         </div>
       </motion.div>
 
-      {/* Image */}
+      {/* Media: prefer video if provided, else image */}
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -81,11 +82,31 @@ export default function BlogHero({ title, description, meta, image }: HeroProps)
         viewport={{ once: true, amount: 0.3 }}
         className="w-full max-w-[1140px] h-[220px] sm:h-[350px] lg:h-[510px] rounded-2xl overflow-hidden"
       >
-        <img
-          src={image}
-          alt="Blog Hero"
-          className="w-full h-full object-cover"
-        />
+        {typeof video === "string" && video.length > 0 ? (
+          video.includes("youtube.com") || video.includes("youtu.be") ? (
+            <iframe
+              src={
+                video.includes("embed")
+                  ? video
+                  : video.includes("watch?v=")
+                  ? video.replace("watch?v=", "embed/")
+                  : video.replace("youtu.be/", "www.youtube.com/embed/")
+              }
+              title="Hero Video"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          ) : (
+            <video src={video} className="w-full h-full object-cover" controls />
+          )
+        ) : (
+          <img
+            src={image}
+            alt="Blog Hero"
+            className="w-full h-full object-cover"
+          />
+        )}
       </motion.div>
     </section>
   );

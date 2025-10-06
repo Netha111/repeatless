@@ -24,6 +24,7 @@ export default function BlogPage({ params }: Params) {
           description={blog.hero.description}
           meta={blog.hero.meta}
           image={blog.hero.image}
+          video={blog.hero.video}
         />
         <BlogBody sections={blog.body.sections} />
       </section>

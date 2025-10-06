@@ -8,6 +8,7 @@ type BodySection = {
   stats?: Array<{ value: string; label: string; highlight?: boolean }>;
   iconList?: string[];
   image?: string;
+  video?: string;
   bullets?: string[];
 };
 
@@ -93,18 +94,38 @@ export default function BlogBody({ sections }: BodyProps) {
               </motion.div>
             )}
 
-            {/* Image */}
-            {section.image && (
+            {/* Media: prefer video if provided, else image */}
+            {(section.video || section.image) && (
               <motion.div
                 variants={fadeUpVariants}
                 custom={4}
                 className="w-full h-[220px] sm:h-[300px] lg:h-[390px] rounded-xl overflow-hidden"
               >
-                <img
-                  src={section.image}
-                  alt="Blog Section"
-                  className="w-full h-full object-cover"
-                />
+                {section.video ? (
+                  section.video.includes("youtube.com") || section.video.includes("youtu.be") ? (
+                    <iframe
+                      src={
+                        section.video.includes("embed")
+                          ? section.video
+                          : section.video.includes("watch?v=")
+                          ? section.video.replace("watch?v=", "embed/")
+                          : section.video.replace("youtu.be/", "www.youtube.com/embed/")
+                      }
+                      title="Section Video"
+                      className="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  ) : (
+                    <video src={section.video} className="w-full h-full object-cover" controls />
+                  )
+                ) : (
+                  <img
+                    src={section.image as string}
+                    alt="Blog Section"
+                    className="w-full h-full object-cover"
+                  />
+                )}
               </motion.div>
             )}
 

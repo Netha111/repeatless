@@ -6,6 +6,7 @@ import {
   FiPhone,
   FiInstagram
 } from "react-icons/fi";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
@@ -66,7 +67,7 @@ export default function Footer() {
           <Link href="#testimonials" className="text-white/80 hover:text-white transition">About Us</Link>
           <Link href="#solutions" className="text-white/80 hover:text-white transition">Solutions</Link>
           <Link href="/casestudies" className="text-white/80 hover:text-white transition">Case Studies</Link>
-          <Link href="#contact" className="text-white/80 hover:text-white transition">Book a Demo</Link>
+          <Link href="https://calendly.com/chandannetha/30min" className="text-white/80 hover:text-white transition">Book a Demo</Link>
         </div>
 
         {/* Contact Us */}
@@ -90,6 +91,24 @@ export default function Footer() {
           >
             <FiInstagram className="w-4 h-4 shrink-0" />
             <span>Instagram</span>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/chandan-kumar-cheripally-78738a253/"
+            className="flex items-center gap-2 text-white/80 hover:text-white transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="w-4 h-4 shrink-0" />
+            <span>LinkedIn</span>
+          </Link>
+          <Link
+            href="https://www.youtube.com/@chandankumarnetha"
+            className="flex items-center gap-2 text-white/80 hover:text-white transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube className="w-4 h-4 shrink-0" />
+            <span>YouTube</span>
           </Link>
         </div>
       </div>

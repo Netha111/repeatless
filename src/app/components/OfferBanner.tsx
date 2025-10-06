@@ -50,7 +50,7 @@ export default function OfferBanner() {
 
           {/* CTA Button */}
           <a
-            href="#book-demo"
+            href="https://calendly.com/chandannetha/30min"
             className="relative flex items-center justify-center gap-2 px-4 py-2 sm:px-[19px] sm:py-[8px] bg-[#4D00FF] rounded-[38px] text-white font-poppins text-[15px] sm:text-[17px] leading-[25px] sm:leading-[31px] shadow-[0_0_16px_#6D21F0,0_0_8.1px_#1C76FD] hover:brightness-110 transition-all"
           >
             Book a 20-min Demo

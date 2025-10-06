@@ -60,7 +60,7 @@ const Hero = () => {
 
         {/* Hero Content */}
         <motion.div
-          className="flex flex-col items-center justify-center text-center w-full px-4 sm:px-6 md:px-8 max-w-4xl mx-auto pt-24 sm:pt-28 md:pt-36"
+          className="flex flex-col items-center justify-center text-center w-full px-4 sm:px-6 md:px-8 max-w-4xl mx-auto pt-48 sm:pt-36 md:pt-36"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -102,7 +102,10 @@ const Hero = () => {
           </motion.p>
 
           {/* CTA Button */}
-          <motion.button
+          <motion.a
+            href="https://calendly.com/chandannetha/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-6 flex items-center justify-center bg-[#4D00FF] rounded-full px-6 py-2 sm:px-8 sm:py-3 gap-2 shadow-lg hover:bg-[#3700cc] transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -110,7 +113,7 @@ const Hero = () => {
           >
             <span className="font-poppins text-sm sm:text-base">Get Started</span>
             <FiArrowUpRight className="w-4 h-4 sm:w-6 sm:h-6 rotate-45" />
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         {/* Stats Section */}

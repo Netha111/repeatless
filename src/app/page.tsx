@@ -4,6 +4,7 @@ import HeroSection from "./components/AUtomation";
 import CaseStudies from "./components/casestudies";
 import CTASection from "./components/CTASection";
 import Hero from "./components/Hero"; // Updated import path
+import LogoMarquee from "./components/Logo";
 import OfferBanner from "./components/OfferBanner";
 // import FeaturesSection from "./components/Scroll";
 // import AutomationSection from "./components/shero";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <main className="relative"> 
       <Hero />
+      <LogoMarquee/>
 
      
       <SolutionsSection/>
