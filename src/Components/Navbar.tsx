@@ -70,16 +70,21 @@ const Navbar: React.FC = () => {
           ))}
         </div>
 
-        {/* CTA Button (Desktop only) */}
-        <button className="hidden md:flex items-center gap-2 w-40 h-12 rounded-full bg-[#4D00FF] hover:bg-[#3700cc] transition text-white text-poppins font-medium text-sm shadow-lg justify-center">
+        {/* Book a Demo Button (Desktop) */}
+        <a
+          href="https://calendly.com/chandannetha/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:flex items-center gap-2 w-40 h-12 rounded-full bg-[#4D00FF] hover:bg-[#3700cc] transition text-white text-poppins font-medium text-sm shadow-lg justify-center"
+        >
           <FiPhoneCall className="w-4 h-4" />
           <span>Book a Demo</span>
-        </button>
+        </a>
 
         {/* Mobile Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-white text-3xl p-2" // added p-2 for larger tap area
+          className="md:hidden text-white text-3xl p-2"
           aria-label="Toggle menu"
         >
           {isOpen ? <FiX /> : <FiMenu />}
@@ -107,10 +112,15 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
 
-            <button className="flex items-center gap-2 w-40 h-12 rounded-full bg-[#4D00FF] hover:bg-[#3700cc] transition text-white text-poppins font-medium text-sm justify-center">
+            <a
+              href="https://calendly.com/chandannetha/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 w-40 h-12 rounded-full bg-[#4D00FF] hover:bg-[#3700cc] transition text-white text-poppins font-medium text-sm justify-center"
+            >
               <FiPhoneCall className="w-4 h-4" />
               <span>Book a Demo</span>
-            </button>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>

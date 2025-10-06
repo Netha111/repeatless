@@ -169,27 +169,33 @@ const HeroSection: React.FC = () => {
       </svg>
 {/* CTA Button */}
 <div className="flex justify-center lg:absolute lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 pt-10">
-  <button className="flex items-center justify-center gap-2 px-4 py-2 md:px-5 md:py-3 bg-[#4D00FF] rounded-[40px]">
-    <span className="text-white font-poppins text-[12px] sm:text-[14px] md:text-[14px]">
-      Get Free Consultation
-    </span>
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 22 22"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="rotate-90"
-    >
-      <path
-        d="M6 9L11 14L16 9"
-        stroke="white"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  </button>
+<a
+  href="https://calendly.com/chandannetha/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 px-4 py-2 md:px-5 md:py-3 bg-[#4D00FF] rounded-[40px] hover:bg-[#3700cc] transition"
+>
+  <span className="text-white font-poppins text-[12px] sm:text-[14px] md:text-[14px]">
+    Get Free Consultation
+  </span>
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 22 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="rotate-90"
+  >
+    <path
+      d="M6 9L11 14L16 9"
+      stroke="white"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</a>
+
 </div>
 
 

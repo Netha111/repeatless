@@ -60,7 +60,7 @@ const staggerContainer = {
 const SolutionsSection: FC = () => {
   return (
     <motion.section
-    id="solutions"
+      id="solutions"
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
@@ -87,10 +87,10 @@ const SolutionsSection: FC = () => {
 
       {/* Heading */}
       <motion.div
-variants={{
-  hidden: { opacity: 0, y: 60 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.4, 0, 0.2, 1] } },
-}}
+        variants={{
+          hidden: { opacity: 0, y: 60 },
+          show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.4, 0, 0.2, 1] } },
+        }}
         className="mt-10 flex flex-col md:flex-row md:justify-between gap-6 relative z-10"
       >
         <h2 className="text-4xl md:text-6xl font-medium tracking-tight max-w-lg">
@@ -161,11 +161,13 @@ variants={{
         }}
         className="mt-16 flex flex-col items-center gap-5 relative z-10"
       >
-        <button className="flex items-center gap-2 px-6 py-2 bg-[#4D00FF] rounded-full text-sm hover:bg-[#5E1FFF] transition-all">
-          <FiPhoneCall size={16} />
-          Book a Demo
-          <FiArrowRight size={18} />
-        </button>
+        <a href="https://calendly.com/chandannetha/30min" target="_blank" rel="noopener noreferrer">
+          <button className="flex items-center gap-2 px-6 py-2 bg-[#4D00FF] rounded-full text-sm hover:bg-[#5E1FFF] transition-all">
+            <FiPhoneCall size={16} />
+            Book a Demo
+            <FiArrowRight size={18} />
+          </button>
+        </a>
       </motion.div>
     </motion.section>
   );

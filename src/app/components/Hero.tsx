@@ -104,6 +104,7 @@ const Hero = () => {
           {/* CTA Button */}
           <motion.a
             href="https://calendly.com/chandannetha/30min"
+
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 flex items-center justify-center bg-[#4D00FF] rounded-full px-6 py-2 sm:px-8 sm:py-3 gap-2 shadow-lg hover:bg-[#3700cc] transition-all duration-300"
