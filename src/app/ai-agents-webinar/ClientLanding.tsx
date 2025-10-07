@@ -34,6 +34,10 @@ export default function ClientLanding() {
                             AI AGENTS <span className="text-red-500">to market</span> your products and services
                         </h1>
                         <p className="mt-5 text-lg text-blue-100/90">Automate responses on WhatsApp & Instagram. Convert leads instantly into bookings or purchases. 24/7 engagement without extra hires.</p>
+                        <div className="mt-4 inline-flex items-center gap-2 bg-yellow-300/10 text-yellow-300 font-semibold px-4 py-2 rounded-full ring-1 ring-yellow-300/30">
+                            <Clock className="w-4 h-4" />
+                            <span>Live on 12 October, 2025 • 10:00 AM</span>
+                        </div>
 
                         <div className="mt-6 space-y-3">
                             {[
