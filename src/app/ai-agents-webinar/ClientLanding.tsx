@@ -23,7 +23,7 @@ export default function ClientLanding() {
     return (
         <div className="bg-gradient-to-b from-[#0a0a0a] via-[#0f0f14] to-[#0a0a0a] text-white min-h-screen">
             <div className="w-full bg-red-600 text-center text-sm py-2 px-4">
-                <span className="font-semibold">Limited to 50 seats</span> • Recording included • Price today <span className="line-through opacity-70">₹999</span> <span className="font-extrabold text-yellow-300">₹99</span>
+                <span className="font-semibold">Limited to 50 seats</span> • Recording included • Price today <span className="line-through opacity-70">₹999</span> <span className="font-extrabold text-yellow-300">₹99</span> • Language: <span className="font-semibold">Telugu</span>
             </div>
 
             <header className="container mx-auto px-6 pt-10 pb-8 md:pt-16 md:pb-12">
@@ -34,9 +34,15 @@ export default function ClientLanding() {
                             AI AGENTS <span className="text-red-500">to market</span> your products and services
                         </h1>
                         <p className="mt-5 text-lg text-blue-100/90">Automate responses on WhatsApp & Instagram. Convert leads instantly into bookings or purchases. 24/7 engagement without extra hires.</p>
-                        <div className="mt-4 inline-flex items-center gap-2 bg-yellow-300/10 text-yellow-300 font-semibold px-4 py-2 rounded-full ring-1 ring-yellow-300/30">
-                            <Clock className="w-4 h-4" />
-                            <span>Live on 12 October, 2025 • 10:00 AM</span>
+                        <div className="mt-4 flex flex-wrap items-center gap-3">
+                            <div className="inline-flex items-center gap-2 bg-yellow-300/10 text-yellow-300 font-semibold px-4 py-2 rounded-full ring-1 ring-yellow-300/30">
+                                <Clock className="w-4 h-4" />
+                                <span>Live on 12 October, 2025 • 10:00 AM</span>
+                            </div>
+                            <div className="inline-flex items-center gap-2 bg-emerald-300/10 text-emerald-300 font-semibold px-4 py-2 rounded-full ring-1 ring-emerald-300/30">
+                                <MessageCircle className="w-4 h-4" />
+                                <span>Language: Telugu</span>
+                            </div>
                         </div>
 
                         <div className="mt-6 space-y-3">
