@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-2 text-white/80">
             <FiPhone className="w-4 h-4 shrink-0" />
-            <span>+91 98489 84501</span>
+            <span>+91 9849884501</span>
           </div>
           <Link
             href="https://www.instagram.com/chandan_cheripally_"
