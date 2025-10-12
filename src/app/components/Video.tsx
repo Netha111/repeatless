@@ -40,7 +40,7 @@ const VideoSection = () => {
           </>
         ) : (
           <video
-            src="/video/demo.mp4"
+            src="/images/Repeatless.mp4"
             autoPlay
             controls
             className="w-full h-full object-cover rounded-[20px]"
