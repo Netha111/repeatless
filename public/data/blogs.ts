@@ -284,6 +284,70 @@ export const blogs: Blog[] = [
   }
 },
 {
+  slug: "qr-event-attendance-automation",
+  title: "QR-Based Event Attendance Automation",
+  category: "Case Study",
+  date: "2025-10-13",
+  excerpt:
+    "Zero third‑party fees: our QR system verifies attendees against your database, blocks duplicate scans, and updates attendance in real time.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760339555/ticket_qr_cyff8c.png",
+  hero: {
+    title: "QR-Based Event Attendance Automation",
+    description:
+      "We built a lean, secure event check‑in system: unique QR codes per attendee, instant database verification, and one‑scan‑only gatekeeping to stop pass‑arounds—without paying per‑attendee platform fees.",
+    meta: { solution: "EVENT OPS AUTOMATION", stat: "1‑Scan‑Only • Real‑Time Update" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760339555/ticket_qr_cyff8c.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Manual check‑ins were slow and error‑prone. Shared PDFs and generic QR apps couldn’t enforce one‑scan‑only rules, so passes were forwarded and counters were wrong. The team needed a fast, tamper‑resistant system with live database sync and no recurring vendor fees."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Unique QR Issuance: Generate a per‑attendee, signed QR (eventId + attendeeId + nonce) embedded in a secure URL.",
+          "Instant Verification: On scan, the gate page calls our API to validate registration against the event database and check status (NEW / CHECKED_IN / INVALID).",
+          "One‑Scan‑Only Rule: First valid scan flips status to CHECKED_IN and records device/time/location; any subsequent scan is auto‑rejected.",
+          "Double‑Verification: If two devices attempt the same QR near‑simultaneously, a short hold compares timestamps and rejects the later request to prevent piggybacking.",
+          "Offline Tolerance: Edge cache for last sync + fallback code entry; queued confirmations sync back when online.",
+          "Ops Console: Live counters, lane throughput, and exception list (e.g., name mismatch, duplicate attempt) with quick override for authorized staff."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760339555/ticket_qr_cyff8c.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Signed, unique QR per attendee",
+          "Real‑time database validation",
+          "One‑scan‑only enforcement",
+          "Duplicate & race‑condition guards",
+          "Zero per‑attendee SaaS fees",
+          "Simple ops console + logs"
+        ]
+      },
+      {
+        text:
+          "Staff simply scan with a mobile browser: the gate page renders attendee name, ticket type, and status instantly. Approved scans flash GREEN with a beep; blocked duplicates show RED with reason and timestamp. Coordinators monitor hall capacity in real time and export attendance afterward.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760339555/ticket_qr_cyff8c.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "<2‑second average check‑in per attendee",
+          "Duplicate/forwarded passes reduced to near‑zero",
+          "Accurate live headcount and lane throughput",
+          "No third‑party per‑scan costs; fully owned stack",
+          "Clear audit trail for compliance and sponsors"
+        ]
+      }
+    ]
+  }
+}
+,
+{
   slug: "document-consolidation-automation",
   title: "Document Consolidation & Auto‑Foldering Automation (Consultancy)",
   category: "Case Study",
