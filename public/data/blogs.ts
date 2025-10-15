@@ -284,6 +284,133 @@ export const blogs: Blog[] = [
   }
 },
 {
+  slug: "social-media-automation-luxury-bike-chicago",
+  title: "Social Media Automation for a Luxury Bike Shop (Chicago)",
+  category: "Case Study",
+  date: "2025-10-10",
+  excerpt:
+    "$700 AI + auto-posting system that publishes daily across Instagram, TikTok, X, YouTube & LinkedIn—turning local discovery into DMs and foot traffic.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png",
+  hero: {
+    title: "$700 Social Media Automation for a Chicago Luxury Bike Shop",
+    description:
+      "We built an always-on content engine: AI generates on-brand posts + images, adds Chicago-local hashtags, and auto-publishes daily across five platforms—no manual work.",
+    meta: { solution: "CONTENT + DISTRIBUTION", stat: "Daily Posting • 7 Categories" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "The shop had world-class builds but inconsistent posting. Editing, resizing, and rewriting per platform took hours; hashtags weren’t localized; and posts stalled on busy weeks—so discovery in Chicago lagged and DMs were quiet."
+      },
+      {
+        title: "Solution",
+        text: [
+          "Daily Cadence: Auto-posts to Instagram, TikTok, X (Twitter), YouTube (Shorts), and LinkedIn—1 post/day minimum.",
+          "7 Content Categories: Modifications showcase, Repair tips, Bike transformations, Client testimonials, Maintenance advice, Before/After results, Custom builds.",
+          "AI Creative: Generates images/cards and short clips when assets are missing; adapts captions to each platform; injects Chicago-local hashtags and neighborhoods (e.g., #ChicagoBikes, #WickerPark, #RiverNorth).",
+          "Brand Voice: Tone/voice guide enforces premium, performance-focused messaging; CTA variations drive shop visits and DMs.",
+          "Scheduler + Guardrails: Queues a 2–3 week calendar, respects rate limits, and auto-skips repeats; manual approve/pause option.",
+          "Analytics Loop: Tracks reach, profile visits, DMs, and saves; boosts winners; rotates underperformers out."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Proven 7-category content map",
+          "Platform-native captions & formats",
+          "Local SEO hashtags for Chicago",
+          "Hands-free daily scheduling",
+          "AI visuals when assets are missing",
+          "Measure → learn → amplify"
+        ]
+      },
+      {
+        text:
+          "A simple calendar view shows upcoming posts by category and platform with preview thumbnails. The owner can drag-to-reorder, swap a photo, or let the queue run autonomously; weekly reports highlight DM spikes and best-performing angles (before/after, client testimonials, custom builds).",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Consistent daily presence across 5 platforms for a $700 setup",
+          "DMs surged with first-time Chicago inquiries (organic discovery)",
+          "Zero manual resizing/copy-pasting; owner focuses on builds",
+          "On-brand premium tone maintained across posts",
+          "Evergreen queue maintained 2–3 weeks ahead"
+        ]
+      }
+    ]
+  }
+}
+,
+{
+  slug: "whatsapp-local-service-connector-us",
+  title: "WhatsApp Local Service Connector (US County)",
+  category: "Case Study",
+  date: "2025-10-05",
+  excerpt:
+    "An AI+automation workflow that connects residents to vetted plumbers, electricians, and AC techs via WhatsApp—routing in seconds and boosting provider subscriptions.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png",
+  hero: {
+    title: "WhatsApp Local Service Connector",
+    description:
+      "In one US county, residents struggled to reach reliable home‑service providers quickly. We built a WhatsApp agent that understands the request, checks real‑time provider availability, and connects both parties instantly—no call centers, no waiting.",
+    meta: { solution: "LOCAL SERVICES AUTOMATION", stat: "Instant Request → Provider Match" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "Discovery and coordination were slow. Customers bounced between directories and unanswered calls, while providers missed jobs outside business hours. The client needed a simple, always‑on way to match residents with the right on‑duty professional."
+      },
+      {
+        title: "Solution",
+        text: [
+          "WhatsApp Agent: Residents message a keyword like ‘plumber needed’. The agent collects location, urgency, and brief issue description.",
+          "Smart Matching: System checks a provider database (skills, coverage area, SLA) and current status (active/idle/do‑not‑disturb).",
+          "Instant Connect: Shares request to the best‑fit, currently active provider; once accepted, both parties receive each other’s contact details for direct follow‑up.",
+          "Fallback & Escalation: If no active provider, queue the request, ping next‑best, or escalate to a manual dispatcher.",
+          "Provider Portal: Service pros manage availability, service categories, pricing notes, and subscription billing (monthly).",
+          "Logs & Metrics: Track response times, acceptance rates, completion notes, and customer feedback for quality control."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+      },
+      {
+        title: "Why it Works",
+        iconList: [
+          "Frictionless WhatsApp intake",
+          "Real‑time availability matching",
+          "Direct customer↔provider connection",
+          "Fail‑safes for off‑hours coverage",
+          "Quality tracking & feedback loop",
+          "Recurring subscriptions for providers"
+        ]
+      },
+      {
+        text:
+          "Operations staff can view a live queue, override matches, or pause categories during storms/peaks. Providers toggle ‘Active’ in one tap; the agent respects do‑not‑disturb windows and rotates jobs fairly across subscribers.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "Requests routed to an on‑duty pro within seconds",
+          "Higher job acceptance and faster first response",
+          "More completed jobs and happier residents",
+          "Predictable recurring revenue via provider subscriptions",
+          "Reduced coordinator workload with clear audit trails"
+        ]
+      }
+    ]
+  }
+},
+{
   slug: "qr-event-attendance-automation",
   title: "QR-Based Event Attendance Automation",
   category: "Case Study",
@@ -474,134 +601,8 @@ export const blogs: Blog[] = [
       }
     ]
   }
-},
-{
-  slug: "social-media-automation-luxury-bike-chicago",
-  title: "Social Media Automation for a Luxury Bike Shop (Chicago)",
-  category: "Case Study",
-  date: "2025-10-10",
-  excerpt:
-    "$700 AI + auto-posting system that publishes daily across Instagram, TikTok, X, YouTube & LinkedIn—turning local discovery into DMs and foot traffic.",
-  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png",
-  hero: {
-    title: "$700 Social Media Automation for a Chicago Luxury Bike Shop",
-    description:
-      "We built an always-on content engine: AI generates on-brand posts + images, adds Chicago-local hashtags, and auto-publishes daily across five platforms—no manual work.",
-    meta: { solution: "CONTENT + DISTRIBUTION", stat: "Daily Posting • 7 Categories" },
-    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
-  },
-  body: {
-    sections: [
-      {
-        title: "Challenge",
-        text:
-          "The shop had world-class builds but inconsistent posting. Editing, resizing, and rewriting per platform took hours; hashtags weren’t localized; and posts stalled on busy weeks—so discovery in Chicago lagged and DMs were quiet."
-      },
-      {
-        title: "Solution",
-        text: [
-          "Daily Cadence: Auto-posts to Instagram, TikTok, X (Twitter), YouTube (Shorts), and LinkedIn—1 post/day minimum.",
-          "7 Content Categories: Modifications showcase, Repair tips, Bike transformations, Client testimonials, Maintenance advice, Before/After results, Custom builds.",
-          "AI Creative: Generates images/cards and short clips when assets are missing; adapts captions to each platform; injects Chicago-local hashtags and neighborhoods (e.g., #ChicagoBikes, #WickerPark, #RiverNorth).",
-          "Brand Voice: Tone/voice guide enforces premium, performance-focused messaging; CTA variations drive shop visits and DMs.",
-          "Scheduler + Guardrails: Queues a 2–3 week calendar, respects rate limits, and auto-skips repeats; manual approve/pause option.",
-          "Analytics Loop: Tracks reach, profile visits, DMs, and saves; boosts winners; rotates underperformers out."
-        ],
-        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
-      },
-      {
-        title: "Why it Works",
-        iconList: [
-          "Proven 7-category content map",
-          "Platform-native captions & formats",
-          "Local SEO hashtags for Chicago",
-          "Hands-free daily scheduling",
-          "AI visuals when assets are missing",
-          "Measure → learn → amplify"
-        ]
-      },
-      {
-        text:
-          "A simple calendar view shows upcoming posts by category and platform with preview thumbnails. The owner can drag-to-reorder, swap a photo, or let the queue run autonomously; weekly reports highlight DM spikes and best-performing angles (before/after, client testimonials, custom builds).",
-        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760271382/social_media_yusuf_pceijg.png"
-      },
-      {
-        title: "Impact",
-        bullets: [
-          "Consistent daily presence across 5 platforms for a $700 setup",
-          "DMs surged with first-time Chicago inquiries (organic discovery)",
-          "Zero manual resizing/copy-pasting; owner focuses on builds",
-          "On-brand premium tone maintained across posts",
-          "Evergreen queue maintained 2–3 weeks ahead"
-        ]
-      }
-    ]
-  }
 }
-,
-{
-  slug: "whatsapp-local-service-connector-us",
-  title: "WhatsApp Local Service Connector (US County)",
-  category: "Case Study",
-  date: "2025-10-05",
-  excerpt:
-    "An AI+automation workflow that connects residents to vetted plumbers, electricians, and AC techs via WhatsApp—routing in seconds and boosting provider subscriptions.",
-  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png",
-  hero: {
-    title: "WhatsApp Local Service Connector",
-    description:
-      "In one US county, residents struggled to reach reliable home‑service providers quickly. We built a WhatsApp agent that understands the request, checks real‑time provider availability, and connects both parties instantly—no call centers, no waiting.",
-    meta: { solution: "LOCAL SERVICES AUTOMATION", stat: "Instant Request → Provider Match" },
-    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
-  },
-  body: {
-    sections: [
-      {
-        title: "Challenge",
-        text:
-          "Discovery and coordination were slow. Customers bounced between directories and unanswered calls, while providers missed jobs outside business hours. The client needed a simple, always‑on way to match residents with the right on‑duty professional."
-      },
-      {
-        title: "Solution",
-        text: [
-          "WhatsApp Agent: Residents message a keyword like ‘plumber needed’. The agent collects location, urgency, and brief issue description.",
-          "Smart Matching: System checks a provider database (skills, coverage area, SLA) and current status (active/idle/do‑not‑disturb).",
-          "Instant Connect: Shares request to the best‑fit, currently active provider; once accepted, both parties receive each other’s contact details for direct follow‑up.",
-          "Fallback & Escalation: If no active provider, queue the request, ping next‑best, or escalate to a manual dispatcher.",
-          "Provider Portal: Service pros manage availability, service categories, pricing notes, and subscription billing (monthly).",
-          "Logs & Metrics: Track response times, acceptance rates, completion notes, and customer feedback for quality control."
-        ],
-        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
-      },
-      {
-        title: "Why it Works",
-        iconList: [
-          "Frictionless WhatsApp intake",
-          "Real‑time availability matching",
-          "Direct customer↔provider connection",
-          "Fail‑safes for off‑hours coverage",
-          "Quality tracking & feedback loop",
-          "Recurring subscriptions for providers"
-        ]
-      },
-      {
-        text:
-          "Operations staff can view a live queue, override matches, or pause categories during storms/peaks. Providers toggle ‘Active’ in one tap; the agent respects do‑not‑disturb windows and rotates jobs fairly across subscribers.",
-        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1759668522/repeatless/serviceprovider_srwmjd.png"
-      },
-      {
-        title: "Impact",
-        bullets: [
-          "Requests routed to an on‑duty pro within seconds",
-          "Higher job acceptance and faster first response",
-          "More completed jobs and happier residents",
-          "Predictable recurring revenue via provider subscriptions",
-          "Reduced coordinator workload with clear audit trails"
-        ]
-      }
-    ]
-  }
-}
+
 ];
 
 
