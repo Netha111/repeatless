@@ -348,6 +348,70 @@ export const blogs: Blog[] = [
 }
 ,
 {
+  slug: "youtube-comment-automation",
+  title: "YouTube Comment Automation",
+  category: "Case Study",
+  date: "2025-10-16",
+  excerpt:
+    "We built an N8N workflow that auto-replies to every YouTube comment in the creator’s tone — saving 10+ hours weekly and tripling engagement, all with zero third-party tools.",
+  image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760554512/repeatless/youtube_qa6uvx.png",
+  hero: {
+    title: "Automating YouTube Engagement with N8N",
+    description:
+      "Our client, a fast-growing YouTube creator, was overwhelmed by hundreds of comments per video. We built a smart N8N automation that instantly replies in their brand voice — saving over 10 hours weekly and boosting engagement 3x.",
+    meta: { solution: "CREATOR AUTOMATION", stat: "10+ Hours Saved • 3x Engagement" },
+    image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760554512/repeatless/youtube_qa6uvx.png"
+  },
+  body: {
+    sections: [
+      {
+        title: "Challenge",
+        text:
+          "The client’s YouTube channel was growing fast — but each upload brought hundreds of new comments. Their small team struggled to reply promptly, leaving loyal fans unanswered. Engagement was dropping, and community sentiment was fading. They needed a solution that could maintain authenticity while removing the manual workload."
+      },
+      {
+        title: "Solution",
+        text: [
+          "We designed a fully custom workflow inside N8N — no third-party tools, no extra APIs.",
+          "The system uses the YouTube Data API to track new comments in real time.",
+          "For each comment, N8N analyzes the tone and content to determine intent (praise, question, or feedback).",
+          "It then generates a reply in the creator’s exact brand voice, trained on previous responses.",
+          "Finally, it posts the reply automatically to YouTube within seconds.",
+          "The workflow also logs all interactions for tracking engagement and detecting spam comments."
+        ],
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760554512/repeatless/youtube_qa6uvx.png"
+      },
+      {
+        title: "Why It Works",
+        iconList: [
+          "Completely built in N8N — no SaaS tools or API fees",
+          "Replies in authentic, brand-specific tone",
+          "Real-time comment tracking and responses",
+          "Context-aware, intelligent reply generation",
+          "Zero manual moderation required",
+          "Scalable for multiple channels"
+        ]
+      },
+      {
+        text:
+          "The workflow runs 24/7 — watching every video, Short, and community post. When a comment arrives, it replies in under 5 minutes, keeping engagement constant. The automation respects YouTube’s rate limits and stores all responses in Google Sheets for transparency. The creator now interacts with fans automatically while staying true to their voice.",
+        image: "https://res.cloudinary.com/ds10dzkpj/image/upload/v1760554512/repeatless/youtube_qa6uvx.png"
+      },
+      {
+        title: "Impact",
+        bullets: [
+          "10+ hours saved weekly on manual comment management",
+          "Engagement rate increased by 3x within 2 weeks",
+          "Audience sentiment improved — comments feel personal",
+          "No added cost: built entirely with open-source N8N",
+          "100% consistency in tone, speed, and accuracy"
+        ]
+      }
+    ]
+  }
+}
+,
+{
   slug: "document-consolidation-automation",
   title: "Document Consolidation & Auto‑Foldering Automation (Consultancy)",
   category: "Case Study",
